@@ -2,7 +2,7 @@ import dotenv from "dotenv"
 import mongoose from "mongoose";
 import { DB_NAME } from "../constants.js";
 dotenv.config({
-    path : "./Backend/env"
+   path : "../../backend/.env"
 })
 
 const connectDB = async()=>{
